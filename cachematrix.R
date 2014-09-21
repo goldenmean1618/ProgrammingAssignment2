@@ -20,6 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
               setinverse = setinverse,
               getinverse = getinverse)
 }
+
 ## cacheSolve solves the inverse of the invertible matrix it is provided, and stores the answer in the special matrix
 ## that it is given. It needs to be given a matrix that has already been run through makeCacheMatrix, which is 
 ## something like a matrix with metadata. The first time cacheSolve is solved for a given CacheMatrix, it stores the
